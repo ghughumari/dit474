@@ -1,0 +1,280 @@
+/* global class */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0 ;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+section{
+padding: 75px 0px;
+text-align: center;
+}
+p{
+font-size: 15px;
+font-weight: 300;
+}
+.heading{
+font-size: 40px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+.sub-heading{
+font-size: 25px;
+line-height: 25px;
+text-transform: uppercase;
+margin: 10px 0px;
+}
+.underline{
+border-top: 3px solid rgba(0, 0, 0, 0.253);
+width: 40px;
+margin: 10px auto;
+}
+.writing-part{
+    margin-bottom: 50px ;
+    }
+/* Layout */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.col-1{
+    width:8.33% ;
+    float: left;
+}
+.col-2{
+    width: 16.66% ;
+    float: left;
+}
+.col-3{
+    width:25% ;
+    float:left;
+}
+.col-4{
+    width:33.33% ;
+    float: left;
+}
+.col-5{
+    width:41.66% ;
+    float: left;
+}
+.col-6{
+    width:50% ;
+    float: left;
+}
+.col-7{
+    width:58.33% ;
+    float: left;
+}
+.col-8{
+    width:66.66% ;
+    float: left;
+}
+.col-9{
+    width:75% ;
+    float: left;
+}
+.col-10{
+    width:83.33% ;
+    float: left;
+}
+.col-11{
+    width:91.66% ;
+    float: left;
+}
+.col-12{
+    width:100% ;
+    float: left;
+}
+/* Header-part */
+header{
+    background-color:#87509c ;
+}
+nav{
+padding: 10px 0px;
+}
+.logo-part{
+padding: 10px 0px;
+}
+.menu-part{
+
+}
+.menu-part ul{
+text-align: right;
+padding: 13px 0px;
+}
+.menu-part li{
+list-style: none;
+display: inline-block;
+margin: 0px 7px;
+padding: 7px;
+background-color: black;
+}
+.menu-part li a{
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+color: #ffffff;
+text-decoration: none;
+text-transform: uppercase;
+}
+.hero-part{
+text-align: center;
+padding: 150px 100px;
+}
+.hero-part h1{
+font-size: 50px;
+line-height: 50px;
+color: #ffffff;
+}
+.hero-part button{
+background-color:#eb7d4b ;
+color: #ffffff;
+padding: 10px 30px;
+font-size: 20px;
+font-weight: 500;
+text-transform: uppercase;
+width: 200px;
+margin-top: 30px;
+}
+#service{
+background-color: #17c2a4;
+color: white;
+}
+.service-box-{
+padding: 0px 25px;
+}
+#team{
+background-color: #e7f1f8;
+}
+#skill{
+background-color:#ffffff ;
+}
+.service-box-img{
+height: 150px;
+}
+.team-icon{
+margin-top: 30px;
+}
+.team-icon i{
+color: rgb(161, 26, 26);
+background-color: #17c2a4;
+padding: 10px;
+margin: 0px 5px;
+border-radius: 50px;
+width: 40px;
+}
+.des{
+color:#8cd1ee ;
+font-size: 17px;
+font-weight: 400;
+}
+#portfolio{
+background-color:#ffdd99 ;
+}
+.portfolio-btn-part button{
+padding: 5px 20px;
+margin: 0px 5px;
+text-transform: uppercase;
+background: rgba(0, 0, 0, 0.082);
+}
+.portfolio-btn-part button:hover{
+background: #fff;
+}
+.portfolio-box-part{
+margin-top: 20px;
+}
+.Load-btn{
+background-color:#17c2a4 ;
+color: #ffffff;
+padding: 10px 30px;
+font-size: 20px;
+font-weight: 500;
+text-transform: uppercase;
+width: 200px;
+margin-top: 30px;
+}
+#about{
+background-color: #d74680;
+color: #fff;
+}
+#contact{
+background-color: #3c5499;
+color: #ffffff;
+}
+.about-img{
+bottom: 10px;
+}
+input{
+background-color: ;
+}
+.form-part-one{
+
+}
+.form-name{
+text-align: end;
+}
+input[type="text"]{
+width: 50%;
+background:#273a71 ;
+padding: 10px;
+}
+.form-email{
+text-align: start;
+}
+input[type="email"]{
+width: 50%;
+background:#273a71 ;
+padding: 10px;
+margin-left: 1%;
+}
+.form-part-Two{
+
+}
+textarea{
+width: 51%;
+background:#273a71 ;
+margin-top: 10px;
+padding: 10px;
+color: #fff;
+}
+input[type="submit"]{
+display: block;
+margin: 10px auto 0px;
+background:#30bae7 ;
+color: #ffffff;
+padding: 10px;
+font-size: 20px;
+font-weight: 500;
+text-transform: uppercase;
+width: 200px;
+}
+input::placeholder,textarea::placeholder{
+color: #fff;
+}
+footer{
+background: #344b8e;
+}
+footer ul{
+text-align: center;
+padding: 20px 0px;
+}
+footer li{
+text-align: inline-block;
+margin: 0px 10px;
+display: inline-block;
+}
+footer a{
+font-size: 20px;
+font-weight: 500;
+text-transform: uppercase;
+text-decoration: none;
+color: #fff;
+width: 10px;
+}
